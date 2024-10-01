@@ -1,0 +1,59 @@
+body {
+    background-color: #e4f0e4; /* Soft mint green */
+    color: #5e4b8a; /* A muted plum for text */
+}
+
+.navbar {
+    background-color: #b4e2d8; /* Soft teal */
+}
+
+footer {
+    background-color: #cfe2cf; /* Light mint tone */
+}
+
+.hero {
+    background-color: #ffffff; /* White for contrast */
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.card {
+    border: 1px solid #cfcfcf; /* Light border for cards */
+    border-radius: 10px;
+}
+
+.progress-bar {
+    border-radius: 10px; /* Rounded progress bars */
+}
+
+.container img {
+    width: 400px;
+    height: 300px;
+}
+
+.skill-detail {
+    display: none; /* Initially hide the skill detail */
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.skill-card:hover .skill-detail {
+    display: block; /* Show skill details on hover */
+}
+
+.skill-card {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+header.hero {
+    background-color: rgba(255, 255, 255, 0.9); /* Light creamy white for header section */
+}
+
+section {
+    background-color: #f3f7f3; /* Very light soft green for sections */
+}
